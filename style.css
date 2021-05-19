@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+  background: linear-gradient(
+    45deg,
+    #ffcc5c 20%,
+    #3c3c3c 20% 50%,
+    #ff6f69 50% 80%,
+    #96ceb4 80%
+  );
+
+  background-size: cover;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.contener {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem;
+  margin: 1rem 1rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.napis {
+  font-size: 100px;
+}
+
+.n1 {
+  animation: background 4s cubic-bezier(1, 0, 0, 1) infinite;
+  color: black;
+}
+
+.n2 {
+  animation: backgrounddobrze 4s cubic-bezier(1, 0, 0, 1) infinite;
+  color: black;
+}
+
+a {
+  color: #22469a;
+  text-decoration: none;
+}
+
+.blok1,
+.blok2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.przyklad {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.przyklad p {
+  font-size: 1.7rem;
+  background: gray;
+  width: 800px;
+  padding: 2rem 2rem;
+  margin-top: 20px;
+}
+
+.zle1 {
+  animation: background 10s cubic-bezier(1, 0, 0, 1) infinite;
+  animation-delay: 2s;
+}
+
+.zle2 {
+  animation: background 10s cubic-bezier(1, 0, 0, 1) infinite;
+  animation-delay: 4s;
+}
+
+.zle3 {
+  animation: background 10s cubic-bezier(1, 0, 0, 1) infinite;
+  animation-delay: 6s;
+}
+
+.dobrze {
+  animation: backgrounddobrze 10s cubic-bezier(1, 0, 0, 1) infinite;
+  animation-delay: 8s;
+}
+
+@keyframes background {
+  0% {
+    background-color: #800000;
+  }
+  33% {
+    background-color: #808080;
+  }
+  67% {
+    background-color: #808080;
+  }
+  100% {
+    background-color: #808080;
+  }
+}
+
+@keyframes backgrounddobrze {
+  0% {
+    background-color: #32cd32;
+  }
+  33% {
+    background-color: #808080;
+  }
+  67% {
+    background-color: #808080;
+  }
+  100% {
+    background-color: #808080;
+  }
+}

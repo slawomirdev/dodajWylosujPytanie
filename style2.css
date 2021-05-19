@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+
+body,
+html {
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.blok form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+.box {
+  height: 70%;
+}
+
+.box2 {
+  height: 30%;
+}
+
+.zdjecie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zdjecie img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+}
+
+.blok4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+.blok5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8rem;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+form input {
+  padding: 0.5rem 2.5rem;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #ff4655;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s linear;
+}
+
+input[type="submit"]:hover {
+  background: green;
+  color: white;
+  transition: 0.5s linear;
+}
+
+input[type="text"] {
+  margin: 1rem 1rem;
+}
+input[type="radio"] {
+  margin: 1rem 1rem;
+}
+
+@keyframes background {
+  0% {
+    background-color: #800000;
+  }
+  33% {
+    background-color: #808080;
+  }
+  67% {
+    background-color: #808080;
+  }
+  100% {
+    background-color: #808080;
+  }
+}
+
+@keyframes backgrounddobrze {
+  0% {
+    background-color: #32cd32;
+  }
+  33% {
+    background-color: #808080;
+  }
+  67% {
+    background-color: #808080;
+  }
+  100% {
+    background-color: #808080;
+  }
+}
